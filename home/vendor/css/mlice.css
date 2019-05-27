@@ -1,0 +1,327 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.navbar-icon-top .navbar-nav .nav-link>.fa {
+    position: relative;
+    width: 36px;
+    font-size: 20px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link>.fa>.badge {
+    font-size: 0.75rem;
+    position: absolute;
+    right: 0;
+    font-family: sans-serif;
+}
+
+.navbar-icon-top .navbar-nav .nav-link>.fa {
+    top: 3px;
+    line-height: 12px;
+}
+
+.navbar-icon-top .navbar-nav .nav-link>.fa>.badge {
+    top: -10px;
+}
+
+@media (min-width: 576px) {
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link>.fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+    .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link>.fa>.badge {
+        top: -7px;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link>.fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+    .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link>.fa>.badge {
+        top: -7px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link>.fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 24px;
+    }
+    .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link>.fa>.badge {
+        top: -7px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+        text-align: center;
+        display: table-cell;
+        height: 70px;
+        vertical-align: middle;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link>.fa {
+        display: block;
+        width: 48px;
+        margin: 2px auto 4px auto;
+        top: 0;
+        line-height: 22px;
+    }
+    .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link>.fa>.badge {
+        top: -7px;
+    }
+}
+
+
+/* Footer **/
+
+.footers {
+    padding-top: 2%;
+}
+
+.footers a {
+    color: #696969;
+}
+
+.footers p {
+    color: #696969;
+}
+
+.footers ul {
+    line-height: 30px;
+}
+
+#social-fb:hover {
+    color: #3B5998;
+    transition: all .001s;
+}
+
+#social-lock:hover {
+    color: #696969;
+    transition: all .001s;
+}
+
+#social-tw:hover {
+    color: #4099FF;
+    transition: all .001s;
+}
+
+#social-gp:hover {
+    color: #d34836;
+    transition: all .001s;
+}
+
+#social-em:hover {
+    color: #f39c12;
+    transition: all .001s;
+}
+
+.footers-logo {
+    font-family: "Tangerine", cursive;
+    font-size: 40px;
+    font-weight: bolder;
+    color: green;
+}
+
+
+/* Fin footer **/
+
+
+/* Index styles */
+
+body {
+    background-color: #f8f9fa!important;
+}
+
+#testimonial {
+    margin: 5%;
+}
+
+h2 {
+    float: left;
+    display: inline-block;
+    color: #fff;
+    font-size: 48px;
+    font-weight: lighter;
+    margin: 20px 0 0 10px;
+    width: 480px;
+    text-align: left;
+}
+
+.ban {
+    color: #fff;
+    font-size: 25px;
+    float: left;
+    clear: left;
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    margin: 15px 0 0 10px;
+    line-height: 1.6em;
+}
+
+#result {
+    height: 20%;
+    width: auto;
+    color: black;
+}
+
+#result2 {
+    height: 20%;
+    width: auto;
+    color: black;
+}
+
+#result3 {
+    height: 20%;
+    width: auto;
+    color: black;
+}
+
+.information {
+    padding-top: 2%;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+    margin-bottom: 5%;
+}
+
+.info>h3 {
+    margin-bottom: 5%;
+}
+
+.icon_pic {
+    width: 40%;
+    height: 40%;
+}
+
+td {
+    width: 5%;
+}
+
+.imc {
+    width: 80%;
+    height: 90%;
+}
+
+.phone {
+    width: 45%;
+    height: 500px;
+}
+
+.more {
+    width: 400px;
+    display: block;
+    overflow: visible;
+    float: left;
+    text-align: left;
+    background: url(https://d34yn14tavczy0.cloudfront.net/assets/index/sync-a4852c5db6d48f0fe93f0efcaea8b004.png) no-repeat 0 0;
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-image: url("https://d34yn14tavczy0.cloudfront.net/assets/index/sync-a4852c5db6d48f0fe93f0efcaea8b004.png");
+    background-size: auto auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-size: 80px 32px;
+    padding-left: 100px;
+    height: 32px;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.description {
+    padding-top: 10%;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: justify;
+    margin-right: 15%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+#extra {
+    border-radius: 5px;
+    border: solid 2px whitesmoke;
+    margin-right: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (max-width: 650px) {
+    .information {
+        font-size: 20px;
+    }
+    #table {
+        font-size: 12px;
+        display: none;
+    }
+}
+
+.logo {
+    font-size: 15px;
+}
+
+.card {
+    margin-top: 2%;
+}
+
+.card-header {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.right,
+.text-right {
+    text-align: right;
+}
+
+.styles {
+    margin-top: 2%;
+}
+
+.imc {
+    margin: 0 auto;
+}
+
+
+/* End index styles */
+
+;
