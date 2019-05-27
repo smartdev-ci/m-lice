@@ -1,0 +1,35 @@
+RewriteEngine On
+
+RewriteRule ^connexion$ home/views/loginViews.php
+RewriteRule ^application$ home/views/applicationViews.php
+RewriteRule ^contacts$ home/views/contactViews.php
+
+RewriteRule ^calculatrices$ calculatrices/index.php
+RewriteRule ^apport-journalier$ calculatrices/views/apportViews.php
+RewriteRule ^poids-ideal$ calculatrices/views/poidsViews.php
+RewriteRule ^imc$ calculatrices/views/imcViews.php
+RewriteRule ^mb$ calculatrices/views/mbviews.php
+
+RewriteRule ^blog$ blog/index.php
+RewriteRule ^blog/article$ blog/views/postViews.php
+RewriteRule ^blog/recette$ blog/views/recetteViews.php
+RewriteRule ^blog/sport$ blog/views/sportViews.php
+RewriteRule ^blog/video$ blog/views/videosViews.php
+
+RewriteRule ^blog/article/([0-9]+)$ blog/detailViews/postDetailViews.php?id=$1
+RewriteRule ^blog/recette/([0-9]+)$ blog/detailViews/recetteDetailViews.php?id=$1
+RewriteRule ^blog/sport/([0-9]+)$ blog/detailViews/sportDetailViews.php?id=$1
+RewriteRule ^blog/article/([0-9]+)$ blog/detailViews/videosDetailViews.php?id=$1
+
+
+RewriteRule ^shop$ shop/index.php
+RewriteRule ^signin-signup$ shop/views/loginViews.php
+
+
+RewriteRule ^admin$ administration/index.php
+RewriteRule ^article$ administration/views/postViews.php
+RewriteRule ^recettes$ administration/views/recetteViews.php
+RewriteRule ^sports$ administration/views/sportViews.php
+RewriteRule ^videos$ administration/views/videoViews.php
+RewriteRule ^users$ administration/views/usersViews.php
+RewriteRule ^catalogue$ administration/views/catalogueViews.php
